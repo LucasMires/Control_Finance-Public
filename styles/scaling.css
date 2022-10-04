@@ -1,0 +1,20 @@
+.w-full {
+    width: 100%;
+}
+.w-half {
+    width: 50%;
+}
+
+.w-screen {
+    width: 100vw;
+}
+.h-screen {
+    height: 100vh;
+}
+
+.radius-1 {
+    border-radius: var(--radius-1);
+}
+.radius-2 {
+    border-radius: var(--radius-2);
+}

@@ -1,0 +1,52 @@
+@keyframes titleButtonMobile {
+    0% {
+        transform: translateX(-200%);
+        opacity: 0;
+    }
+}
+
+@keyframes titleButtonDesktop {
+    0% {
+        transform: translateY(-500%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes buttonsMobile {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes buttonsDesktop {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes titleFinanceMobile {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes titleFinanceDesktop {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+@keyframes showModelWrapper {
+    0% {
+        opacity: 0;
+    }
+}

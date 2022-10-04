@@ -1,0 +1,85 @@
+#modelWrapper {
+    top: 0;
+    background-color: var(--color-grey-1-opacity-5);
+    align-items: center;
+    animation: showModelWrapper 0.8s;
+}
+
+#model {
+    margin: 0 auto;
+    width: 430px;
+    height: 370px;
+    padding: 0.75rem;
+    max-width: 80%;
+    background-color: var(--white);
+    animation: titleButtonDesktop 0.6s;
+}
+
+#modelDivInitial {
+    margin-top: 1rem;
+}
+#modelDivInitial > button {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    padding: 1rem;
+}
+
+#model > form {
+    justify-content: space-between;
+}
+
+.inputValueBox {
+    border: 1px solid black;
+    width: 95%;
+    height: 4.5vh;
+    align-self: center;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-grey-3);
+}
+.inputValueBox > span {
+    align-self: center;
+    font-size: 1.2rem;
+}
+.inputValueBox > input {
+    width: 80%;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 0.4rem;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.inputValueBox > input::placeholder {
+    color: var(--color-grey-2);
+}
+
+.inputValueBox > input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.inputValueBox > input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#modelDivOptions {
+    margin-top: 1rem;
+}
+#modelDivOptions>label {
+    width: 300px;
+    height: 32px;
+    max-width: 90%;
+    border-radius: 8px;
+    align-self: center;
+}
+#modelDivSubmit {
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+#modelDivSubmit>button {
+    width: 139px;
+    height: 31px;
+}

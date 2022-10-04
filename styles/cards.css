@@ -1,0 +1,39 @@
+#listOfValues {
+    gap: 1rem;
+}
+
+#card {
+    width: 90%;
+    padding: 1rem;
+    border: 1.5px solid var(--color-grey-5);
+    border-radius: var(--radius-1);
+    align-items: center;
+}
+
+#card > div {
+    width: 30%;
+    gap: 5vw;
+    align-items: center;
+    justify-content: end;
+}
+
+#card > div > span{
+    padding: 0.5rem;
+}
+
+#card > div > button {
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    background-image: url("../assets/iconTrash.svg");
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#card > div > button:hover {
+    transform: scale(1.2);
+}

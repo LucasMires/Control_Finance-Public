@@ -1,0 +1,41 @@
+.gap-small {
+    gap: 0.3rem;
+}
+.gap {
+    gap: 0.5rem;
+}
+.gap-1 {
+    gap: 1rem;
+}
+.gap-2 {
+    gap: 1.5rem;
+}
+.gap-3 {
+    gap: 2rem;
+}
+
+.m-top-1 {
+    margin-top: 0.5rem;
+}
+.m-top-2 {
+    margin-top: 1rem;
+}
+.m-top-3 {
+    margin-top: 1.5rem;
+}
+.m-top-4 {
+    margin-top: 2rem;
+}
+
+.padding-1 {
+    padding: 0.5rem;
+}
+.padding-2 {
+    padding: 1rem;
+}
+.padding-3 {
+    padding: 1.5rem;
+}
+.padding-4 {
+    padding: 2rem;
+}

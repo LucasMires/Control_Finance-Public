@@ -1,0 +1,22 @@
+.title-1 {
+    font-size: var(--font-size-4);
+}
+.title-2 {
+    font-size: var(--font-size-3);
+}
+.title-3 {
+    font-size: var(--font-size-2);
+}
+.title-4 {
+    font-size: var(--font-size-1);
+}
+
+.title-weight-1 {
+    font-weight: var(--font-weight-3);
+}
+.title-weight-2 {
+    font-weight: var(--font-weight-2);
+}
+.title-weight-3 {
+    font-weight: var(--font-weight-1);
+}

@@ -1,0 +1,39 @@
+@media (max-width:500px) {
+    header > h1 {
+        animation: titleFinanceMobile 0.8s;
+    }
+    header > button {
+        width: 90%;
+        align-self: center;
+        animation: titleButtonMobile 0.8s ;
+    }
+
+    #sectionValue > article > div > button {
+        animation: buttonsMobile 0.8s;
+    }
+}
+
+@media (min-width:502px) {
+    #header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #header > button {
+        width: 10rem;
+        border: none;
+        animation: titleButtonDesktop 0.8s;
+    }
+
+    #sectionValue > article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #sectionValue > article > div > button {
+        animation: buttonsDesktop 0.8s;
+    }
+}

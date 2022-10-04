@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Control Finance - Seu controle financeiro">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/position.css">
+    <link rel="stylesheet" href="../../styles/positioning.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/spacing.css">
+    <link rel="stylesheet" href="../../styles/scaling.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/model.css">
+    <link rel="stylesheet" href="../../styles/cards.css">
+    <link rel="stylesheet" href="../../styles/animations.css">
+    <link rel="stylesheet" href="../../styles/mediaQuery.css">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Control Finance</title>
+</head>
+
+<body>
+    <header id="header" class="flex flex-col gap-1 justify-center padding-1">
+        <h1 class="title-4 title-weight-3">
+            <span>Control</span> Finance
+        </h1>
+        <button class="button-primary title-2 title-weight-3">Registrar novo valor</button>
+    </header>
+
+    <main id="app" class="h-screen">
+        <section id="sectionValue" class="container padding-1 m-top-4 flex flex-col gap-2">
+            <article class="flex flex-col gap-1">
+                <h2 class="title-3 title-weight-2">Resumo Financeiro</h2>
+                <div class="flex gap-1">
+                    <button id="all" class="financial title-weight-3 radius-1">Todos</button>
+                    <button id="entry" class="financial title-weight-3 radius-1">Entradas</button>
+                    <button id="exit" class="financial title-weight-3 radius-1">Saídas</button>
+                </div>
+            </article>
+            <article id="article-sum" class="flex align-center space-between radius-1">
+                <h2 class="title-3 title-weight-2">Soma dos valores</h2>
+                <p id="sumOfValues">R$0,00</p>
+            </article>
+        </section>
+        <ul id="listOfValues" class="container flex flex-col">
+
+        </ul>
+    </main>
+    <script src="../../scripts/modal.js"></script>
+    <script src="./valuesData.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
